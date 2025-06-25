@@ -76,7 +76,7 @@
                     <input type="hidden" name="modifiedDatetime" value="<%=DataUtility.getTimestamp(dto.getModifiedDatetime())%>">
 
                     <%-- Product Name --%>
-                    <label><b>Product Name</b> <span style="color:red;">*</span></label>
+                    <label><b> Name</b> <span style="color:red;">*</span></label>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-box"></i></span></div>
                         <input type="text" class="form-control" name="productName" placeholder="Product Name" value="<%=DataUtility.getStringData(dto.getProductName())%>">
