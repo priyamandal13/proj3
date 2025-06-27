@@ -58,7 +58,7 @@
 			%>
 			<center>
 				<h1 class="text-light font-weight-bold pt-3">
-					<font color="black"><u>College List</u></font>
+					<font color="black"><u>College1 List</u></font>
 				</h1>
 			</center>
 			<div class="row">
