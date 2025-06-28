@@ -62,7 +62,7 @@ background-repeat: no-repeat;
 			%>
 			<center>
 				<h1 class="text-light font-weight-bold pt-2"><font color="black">
-					Course List</h1></font>
+					Course List11</h1></font>
 				<center>
 
 					<div class="row">
