@@ -24,7 +24,7 @@
 			<column name="ROLE_ID" />
 		</property>
 		<property name="dob" type="java.util.Date">
-			<column name="DOB" />
+			<column name="DOB" />       
 		</property>
 
 		<property name="mobileNo" type="java.lang.String">

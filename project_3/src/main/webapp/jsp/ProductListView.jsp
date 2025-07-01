@@ -117,7 +117,26 @@
 						placeholder="Enter productAmmount" class="form-control"
 						value="<%=ServletUtility.getParameter("productAmmount", request)%>">
 				</div>
-				&emsp;
+				
+				
+	
+		<div class="col-sm-2">
+		<%
+			java.util.HashMap<String, String> categoryMap = new java.util.HashMap<>();
+			categoryMap.put("Electronics", "Electronics");
+			categoryMap.put("Clothing", "Clothing");
+			categoryMap.put("Furniture", "Furniture");
+			categoryMap.put("Stationery", "Stationery");
+
+			String categoryDropdown = HTMLUtility.getList("productCategory", dto.getProductCategory(), categoryMap);
+			
+		%>
+		<%=categoryDropdown %>
+	</div>
+
+
+<font color="red" class="pl-sm-5"> <%=ServletUtility.getErrorMessage("productCategory", request)%></font>
+ 
 
 				<div class="col-sm-2">
 					<input type="submit" class="btn btn-primary btn-md"
@@ -127,7 +146,7 @@
 						name="operation" value="<%=ProductListCtl.OP_RESET%>">
 				</div>
 				<div class="col-sm-1"></div>
-			</div>
+			</div> 
 
 			</br>
 			<div style="margin-bottom: 20px;" class="table-responsive">

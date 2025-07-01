@@ -42,6 +42,7 @@ in\co\rays\project_3\controller\StudentCtl.class
 in\co\rays\project_3\dto\StudentDTO.class
 in\co\rays\project_3\test\MarksheetModelTest.class
 in\co\rays\project_3\controller\BaseCtl.class
+in\co\rays\project_3\controller\ProductListCtl.class
 in\co\rays\project_3\model\CollegeModelHibImp.class
 in\co\rays\project_3\controller\ChangePasswordCtl.class
 in\co\rays\project_3\model\FacultyModelInt.class
@@ -66,6 +67,7 @@ in\co\rays\project_3\util\HTMLUtility.class
 in\co\rays\project_3\controller\TimeTableCtl.class
 in\co\rays\project_3\controller\StudentListCtl.class
 in\co\rays\project_3\model\ModelFactory.class
+in\co\rays\project_3\model\ProductModelInt.class
 in\co\rays\project_3\model\UserModelJDBCImpl.class
 in\co\rays\project_3\dto\CollegeDTO.class
 in\co\rays\project_3\controller\FrontController.class
@@ -79,15 +81,18 @@ in\co\rays\project_3\controller\MyProfileCtl.class
 in\co\rays\project_3\model\StudentModelJDBCImpl.class
 in\co\rays\project_3\util\EmailUtility.class
 in\co\rays\project_3\controller\RoleCtl.class
+in\co\rays\project_3\model\ProductModelHibImp.class
 in\co\rays\project_3\controller\UserRegistrationCtl.class
 in\co\rays\project_3\controller\WelcomeCtl.class
 in\co\rays\project_3\controller\JasperCtl.class
 in\co\rays\project_3\controller\CollegeListCtl.class
 in\co\rays\project_3\controller\TimeTableListCtl.class
 in\co\rays\project_3\model\CourseModelJDBCImpl.class
+in\co\rays\project_3\controller\ProductCtl.class
 in\co\rays\project_3\model\TimetableModelHibImp.class
 in\co\rays\project_3\test\CourseModelTest.class
 in\co\rays\project_3\model\StudentModelHibImp.class
+in\co\rays\project_3\dto\ProductDTO.class
 in\co\rays\project_3\controller\CollegeCtl.class
 in\co\rays\project_3\dto\MarksheetDTO.class
 in\co\rays\project_3\model\StudentModelInt.class
