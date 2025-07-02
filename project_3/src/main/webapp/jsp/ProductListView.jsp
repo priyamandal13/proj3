@@ -117,14 +117,10 @@
 						placeholder="Enter productAmmount" class="form-control"
 						value="<%=ServletUtility.getParameter("productAmmount", request)%>">
 				</div>
-
 				
 				
 	
 		<div class="col-sm-2">
-
-	<div class="col-sm-2">
-
 		<%
 			java.util.HashMap<String, String> categoryMap = new java.util.HashMap<>();
 			categoryMap.put("Electronics", "Electronics");
@@ -140,7 +136,7 @@
 
 
 <font color="red" class="pl-sm-5"> <%=ServletUtility.getErrorMessage("productCategory", request)%></font>
-
+ 
 
 				<div class="col-sm-2">
 					<input type="submit" class="btn btn-primary btn-md"
